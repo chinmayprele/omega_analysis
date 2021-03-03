@@ -1,2 +1,3 @@
 # omega_analysis
-sliding window dn/ds analysis
+
+We will be studying the $\frac{dN}{dS}$
