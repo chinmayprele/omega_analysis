@@ -33,7 +33,7 @@ from Bio.Phylo.PAML import codeml
 
 ### inputs ==================================================================
 # input_file = input( "input ALN file path: " )
-# input_file = "../data/test/ilp1_fna.aln"
+# input_file = "../model_data/test/ilp1_fna.aln"
 # window_size = int(input( "window size: " ))
 window_size = 10            # in terms of codons
 # window_size = input( "Window size: " )            # in terms of codons
@@ -44,7 +44,7 @@ codeml_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_ana
 
 from pathlib import Path
 
-path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/data/"
+path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/model_data/"
 
 genes = []
 for temp in Path(path).iterdir():
@@ -55,11 +55,11 @@ for i in range( len( genes ) ):
 
 gene = genes[ int(input( "Which gene should be analyzed: " )) ]
 
-codons_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/data/{0}/{0}.codons".format( gene )
-mlc_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/data/{0}/{0}.mlc".format( gene )
-tree_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/data/{0}/{0}.nwk".format( gene )
-gene_dir_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/data/{0}/".format( gene )
-codeml_ctl_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/data/{0}/codeml.ctl".format( gene )
+codons_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/model_data/{0}/{0}.codons".format( gene )
+mlc_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/model_data/{0}/{0}.mlc".format( gene )
+tree_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/model_data/{0}/{0}.nwk".format( gene )
+gene_dir_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/model_data/{0}/".format( gene )
+codeml_ctl_path = "/Users/rele.c/Box/00_Personal/reed_lab/URCA/2021_spring/omega_analysis/model_data/{0}/codeml.ctl".format( gene )
 
 # cml = codeml.Codeml()
 # cml.tree = tree_path
