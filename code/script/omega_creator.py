@@ -67,6 +67,7 @@ gene_dir_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/".format(
 full_gene_analysis = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/full_gene_{0}.out".format( gene )
 codeml_ctl_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/ctl_files/codeml.ctl".format( gene )
 mini_ctl_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/ctl_files/mini_codeml.ctl".format( gene )
+high_omegas = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/{0}_high_omegas.fna".format( gene )
 
 # tree_path = "/Users/rele.c/Downloads/omega_analysis/model_data/test/raw_data/test_transl_subalign.nwk"
 
@@ -124,11 +125,11 @@ time.sleep( 1 )
 
 # codeml_ctl_path = "/Users/rele.c/Downloads/omega_analysis/model_data/test/bare_codeml.ctl"
 
-# run_line = "{0} {1} >/dev/null 2>&1".format( codeml_path, codeml_ctl_path )
-# print( "run_line: ", run_line )
-# codeml_run = Popen([run_line], stdin=PIPE, shell=True)
-# time.sleep(1)
-# codeml_run.communicate( input = "\n".encode('utf-8') )
+run_line = "{0} {1} >/dev/null 2>&1".format( codeml_path, codeml_ctl_path )
+print( "run_line: ", run_line )
+codeml_run = Popen([run_line], stdin=PIPE, shell=True)
+time.sleep(1)
+codeml_run.communicate( input = "\n".encode('utf-8') )
 
 # add the omega and cappa to a file
 with open( full_gene_analysis, "w" ) as outfile:
@@ -250,4 +251,4 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 
 with open( "Tor_high_omegas.fna", "w" ) as outfile:
 	for item in highly_evolvable.keys():
-		print( ">REGION{0}\n{1}".format( item, highly_evolvable[item], file=outfile, end="\n\n" ) )
+		print( ">REGION{0}\n{1}".format( item, highly_evolvable[item] ), file=outfile, end="\n\n" )
