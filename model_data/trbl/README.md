@@ -28,3 +28,12 @@ Future directions of these analyses would be to investigate other genes along th
 	- There are certain runs that have very high omegas (and some with `NaN` omegas).
 	- This might be the cause of the issue.
 	- Furthermore, it could also be because "omegas (dN/dS)" could not be `grep`ped out of the file. This seems unlikely because near the `NaN`, the omegas are rather high, and the omegas could be artificially high. More analysis at this region needs to be incorporating more species.
+
+## References
+
+Alvarez-Ponce, David et al. “Network-level molecular evolutionary analysis of the insulin/TOR signal transduction pathway across 12 _Drosophila_ genomes.” Genome research vol. 19,2 (2009): 234-42. [doi:10.1101/gr.084038.108](https://genome.cshlp.org/content/19/2/234.short)
+
+Okonechnikov K, Golosova O, Fursov M, the UGENE team. Unipro UGENE: a unified
+	bioinformatics toolkit. Bioinformatics 2012 28: 1166-1167. [doi:10.1093/bioinformatics/bts091](https://pubmed.ncbi.nlm.nih.gov/22368248/)
+
+“Tribbles.” UniProt Consortium European Bioinformatics Institute Protein Information Resource SIB Swiss Institute of Bioinformatics, 2 Dec. 2020, [www.uniprot.org/uniprot/Q9V3Z1](www.uniprot.org/uniprot/Q9V3Z1).
