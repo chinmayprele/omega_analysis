@@ -189,6 +189,8 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 	time.sleep(1)
 	for i in tqdm(range( 0, aa_length-window_size+1 ), desc="Calculate omega", ascii=True):
 	# for i in range( 0, aa_length-window_size+1 ): # without using tqdm
+		# if i >= 6 and i <= 8:
+		# 	continue
 		time.sleep(0.1) # sleep is redundant, but adding jut in case
 		start = i
 		stop = i+window_size
@@ -226,3 +228,4 @@ with open( high_omegas, "w" ) as outfile:
 		print( ">REGION{0}".format( item ), file=outfile )
 		for sequence in highly_evolvable[item]:
 			print( sequence, file=outfile )
+		print( file=outfile )
