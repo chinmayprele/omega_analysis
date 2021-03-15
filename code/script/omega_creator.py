@@ -1,22 +1,7 @@
 """
 - finds the omega dN/dS for a sliding window
 
-- INPUT:
-	- FASTA of dNTPS (from directory)
-	- request window size
-- OUTPUT:
-	- file of oemga values for each sliding window
-
-
-FINISH CREATING THIS file
-
-READ THE CODEML FROM:
-	~/Downloads/paml4.8/bin/codeml
-IT READS IN THE codeml.ctl AT:
-	~/Downloads/paml4.8/codeml.ctl
-NEED TO OUTPUT INTO A FORMAT THAT IT CAN READ.
-PARAMETERS ALREADY SET; DO NOT CHANGE
-
+Look at the README.md in the home directory for information
 """
 
 ### imports ==================================================================
@@ -34,11 +19,7 @@ from Bio.Phylo.PAML import codeml
 
 
 ### inputs ==================================================================
-# input_file = input( "input ALN file path: " )
-# input_file = "../model_data/test/ilp1_fna.aln"
-# window_size = int(input( "window size: " ))
 window_size = 10            # in terms of codons
-# window_size = input( "Window size: " )            # in terms of codons
 
 codeml_path = "/Users/rele.c/Downloads/omega_analysis/paml4.8/bin/codeml"
 
@@ -57,7 +38,7 @@ for i in range( len( genes ) ):
 	print( "{0:>4}: {1}".format( i, genes[i] ) )
 
 gene = genes[ int(input( "Which gene should be analyzed: " )) ]
-# gene = genes[ 4 ]
+# gene = genes[ 4 ] # for testing purposes
 
 aln_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/raw_data/{0}.msa.aln".format( gene )
 codons_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/{0}.codons".format( gene )
@@ -69,15 +50,15 @@ codeml_ctl_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/ctl_fil
 mini_ctl_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/ctl_files/mini_codeml.ctl".format( gene )
 high_omegas = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/{0}_high_omegas.fna".format( gene )
 
-# tree_path = "/Users/rele.c/Downloads/omega_analysis/model_data/test/raw_data/test_transl_subalign.nwk"
-
-
-print( "aln_path: ".rjust(20), aln_path )
-print( "codons_path: ".rjust(20), codons_path )
-print( "mlc_path: ".rjust(20), mlc_path )
-print( "tree_path: ".rjust(20), tree_path )
-print( "gene_dir_path: ".rjust(20), gene_dir_path )
-print( "codeml_ctl_path: ".rjust(20), codeml_ctl_path )
+print( "aln_path: ".rjust(30), aln_path )
+print( "codons_path: ".rjust(30), codons_path )
+print( "mlc_path: ".rjust(30), mlc_path )
+print( "tree_path: ".rjust(30), tree_path )
+print( "full_gene_analysis: ".rjust(30), full_gene_analysis )
+print( "gene_dir_path: ".rjust(30), gene_dir_path )
+print( "codeml_ctl_path: ".rjust(30), codeml_ctl_path )
+print( "mini_ctl_path: ".rjust(30), mini_ctl_path )
+print( "high_omegas: ".rjust(30), high_omegas )
 
 modules.codon_creator( aln_path, codons_path )
 time.sleep(1)
@@ -87,6 +68,7 @@ time.sleep(1)
 codon_dict = {}
 aa_length = 0
 
+# codeml.ctl params to pass for whole gene
 codeml_params = {
 	"seqfile": aln_path,
 	"treefile": tree_path,
@@ -121,8 +103,7 @@ with open( codeml_ctl_path, "w" ) as ctl:
 	print( "{0} = {1}".format( "ncatG", codeml_params["ncatG"] ), file=ctl )
 time.sleep( 1 )
 
-# codeml_ctl_path = "/Users/rele.c/Downloads/omega_analysis/model_data/test/bare_codeml.ctl"
-
+# running codeml for the whole gene to get the omega and kappa
 run_line = "{0} {1} >/dev/null 2>&1".format( codeml_path, codeml_ctl_path )
 print( "run_line: ", run_line )
 codeml_run = Popen([run_line], stdin=PIPE, shell=True)
@@ -139,6 +120,8 @@ with open( full_gene_analysis, "w" ) as outfile:
 	print( "{0} kappa (ts/tv) = {1}".format( gene, kappa ), file=outfile )
 	print( "Added full gene data to {0}".format( full_gene_analysis ) )
 
+# find and export the codons
+# not used anymore
 with open( codons_path, "r") as infile:
 	for line in tqdm(infile, desc="Reading in codons file", ascii=True):
 		line = line.split()
@@ -165,6 +148,7 @@ highly_evolvable = {}
 temp_mlc = gene_dir_path + "temp.mlc"
 temp_aln = gene_dir_path + "temp.aln"
 
+# codeml.ctl params to pass for sliding window
 codeml_params = {
 	"seqfile": temp_aln,
 	"treefile": tree_path,
@@ -197,14 +181,14 @@ with open( mini_ctl_path, "w" ) as ctl:
 	print( "{0} = {1}".format( "fix_omega", codeml_params["fix_omega"] ), file=ctl )
 	print( "{0} = {1}".format( "omega", codeml_params["omega"] ), file=ctl )
 	print( "{0} = {1}".format( "ncatG", codeml_params["ncatG"] ), file=ctl )
-print( "Finished Writing to: {0}".format( mini_ctl_path ) )
+print( "Finished Writing mini_ctl_path to:\n\t\t{0}".format( mini_ctl_path ) )
 time.sleep( 1 )
 
 with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 	print( "\t".join( omega_lst[0] ), file=omfile )
 	time.sleep(1)
 	for i in tqdm(range( 0, aa_length-window_size+1 ), desc="Calculate omega", ascii=True):
-	# for i in range( 0, aa_length-window_size+1 ):
+	# for i in range( 0, aa_length-window_size+1 ): # without using tqdm
 		time.sleep(0.1) # sleep is redundant, but adding jut in case
 		start = i
 		stop = i+window_size
@@ -214,25 +198,24 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 				print( ">{0}\n{1}".format( item, "".join(codon_dict[item][ start:stop ]) ), file=outfile )
 				temp_comparisons.append( ">{0}\n{1}".format( item, "".join(codon_dict[item][ start:stop ]) ) )
 
+		# running codeml with intermittent "return"/"enter"
+		# "enter" to continue for "???" codons
 		run_line = "{0} {1} {2}".format( codeml_path, mini_ctl_path,  ">/dev/null 2>&1" )
-		# print( "run_line: ", run_line )
 		codeml_run = Popen([run_line], stdin=PIPE, shell=True)
 		time.sleep(1)
 		codeml_run.communicate( input = "\n".encode('utf-8') )
 
+		# truing to get the omega and kappa for each run
+		# writing to file
 		try:
 			direct_output = subprocess.check_output("cat {0} | grep \"omega (dN/dS)\"".format( temp_mlc ), shell=True)
 			omega = direct_output.strip().split()[-1].decode("utf-8")
-			# print( "="*10,start,"="*10, stop,"="*10, omega  )
-			# omega_lst.append( [start+1, stop+1, omega] )
 			direct_output = subprocess.check_output("cat {0} | grep \"kappa (ts/tv)\"".format( temp_mlc ), shell=True)
 			kappa = direct_output.strip().split()[-1].decode("utf-8")
-			# print( "="*10,start,"="*10, stop,"="*10, kappa  )
 			print( "\t".join([str(start+1), str(stop+1), str(omega), str(kappa), str(window_size)]), file=omfile )
 			if float(omega) > 1:
 				highly_evolvable[ "{0}:{1}".format( start, stop ) ] = temp_comparisons
 			time.sleep(1)
-			# print("here")
 		except subprocess.CalledProcessError as e:
 			raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
 			sys.exit( "ERROR" )
@@ -240,4 +223,6 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 
 with open( high_omegas, "w" ) as outfile:
 	for item in highly_evolvable.keys():
-		print( ">REGION{0}\n{1}".format( item, highly_evolvable[item] ), file=outfile, end="\n\n" )
+		print( ">REGION{0}".format( item ), file=outfile )
+		for sequence in highly_evolvable[item]:
+			print( sequence, file=outfile )
