@@ -31,9 +31,8 @@ Future directions of these analyses would be to investigate other genes along th
 
 ## References
 
-Alvarez-Ponce, David et al. “Network-level molecular evolutionary analysis of the insulin/TOR signal transduction pathway across 12 _Drosophila_ genomes.” Genome research vol. 19,2 (2009): 234-42. [doi:10.1101/gr.084038.108](https://genome.cshlp.org/content/19/2/234.short)
-
-Okonechnikov K, Golosova O, Fursov M, the UGENE team. Unipro UGENE: a unified
+- Alvarez-Ponce, David et al. “Network-level molecular evolutionary analysis of the insulin/TOR signal transduction pathway across 12 _Drosophila_ genomes.” Genome research vol. 19,2 (2009): 234-42. [doi:10.1101/gr.084038.108](https://genome.cshlp.org/content/19/2/234.short)
+- Consortium, D. G., et al. (2007). "Evolution of genes and genomes on the Drosophila phylogeny." Nature 450(7167): 203-218.
+- Okonechnikov K, Golosova O, Fursov M, the UGENE team. Unipro UGENE: a unified
 	bioinformatics toolkit. Bioinformatics 2012 28: 1166-1167. [doi:10.1093/bioinformatics/bts091](https://pubmed.ncbi.nlm.nih.gov/22368248/)
-
-“Tribbles.” UniProt Consortium European Bioinformatics Institute Protein Information Resource SIB Swiss Institute of Bioinformatics, 2 Dec. 2020, [www.uniprot.org/uniprot/Q9V3Z1](www.uniprot.org/uniprot/Q9V3Z1).
+- “Tribbles.” UniProt Consortium European Bioinformatics Institute Protein Information Resource SIB Swiss Institute of Bioinformatics, 2 Dec. 2020, [www.uniprot.org/uniprot/Q9V3Z1](www.uniprot.org/uniprot/Q9V3Z1).
