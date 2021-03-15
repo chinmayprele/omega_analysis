@@ -82,8 +82,6 @@ print( "codeml_ctl_path: ".rjust(20), codeml_ctl_path )
 modules.codon_creator( aln_path, codons_path )
 time.sleep(1)
 
-# sys.exit("test in_python codeml")
-
 ### code ==================================================================
 
 codon_dict = {}
@@ -215,18 +213,13 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 			for item in codon_dict.keys():
 				print( ">{0}\n{1}".format( item, "".join(codon_dict[item][ start:stop ]) ), file=outfile )
 				temp_comparisons.append( ">{0}\n{1}".format( item, "".join(codon_dict[item][ start:stop ]) ) )
-		# os.system(  )
 
 		run_line = "{0} {1} {2}".format( codeml_path, mini_ctl_path,  ">/dev/null 2>&1" )
 		# print( "run_line: ", run_line )
 		codeml_run = Popen([run_line], stdin=PIPE, shell=True)
 		time.sleep(1)
 		codeml_run.communicate( input = "\n".encode('utf-8') )
-		# sys.exit( "in loop" )
-		# if i == 10:
-		# 	sys.exit( "test 10" )
-		# os.system( "cat {0} | grep \" (dN/dS)\"".format( temp_mlc ) )
-		# sys.exit( "test" )
+
 		try:
 			direct_output = subprocess.check_output("cat {0} | grep \"omega (dN/dS)\"".format( temp_mlc ), shell=True)
 			omega = direct_output.strip().split()[-1].decode("utf-8")
@@ -244,11 +237,7 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 			raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
 			sys.exit( "ERROR" )
 			continue
-		# sys.exit( "creation" )
 
-# sys.exit("testing")
-
-
-with open( "Tor_high_omegas.fna", "w" ) as outfile:
+with open( high_omegas, "w" ) as outfile:
 	for item in highly_evolvable.keys():
 		print( ">REGION{0}\n{1}".format( item, highly_evolvable[item] ), file=outfile, end="\n\n" )
