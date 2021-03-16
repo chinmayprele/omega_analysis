@@ -1,6 +1,6 @@
-seqfile = /Users/rele.c/Downloads/omega_analysis/model_data/test/raw_data/test.msa.aln
+seqfile = /Users/rele.c/Downloads/omega_analysis/model_data/test/temp.aln
 treefile = /Users/rele.c/Downloads/omega_analysis/model_data/test/raw_data/test.nwk
-outfile = /Users/rele.c/Downloads/omega_analysis/model_data/test/test.mlc
+outfile = /Users/rele.c/Downloads/omega_analysis/model_data/test/temp.mlc
 
 runmode = 0
 seqtype = 1
