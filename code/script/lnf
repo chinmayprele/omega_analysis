@@ -1,0 +1,15 @@
+    -1     10     10
+
+
+ 1
+
+     1      1     0.0000000000   1.000000000000      10.0000  ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) 
+     2      1    -8.7781236415   0.000154066899       0.0015  AAC (N) AAT (N) AAT (N) AAT (N) AAC (N) AAC (N) AAT (N) 
+     3      1    -8.3450416060   0.000237571576       0.0024  ACG (T) ACA (T) ACG (T) ACG (T) ACG (T) ACG (T) ACG (T) 
+     4      1    -9.5317418729   0.000072513205       0.0007  AGC (S) AGT (S) AGC (S) AGC (S) AGC (S) AAT (N) AGC (S) 
+     5      1    -8.7093815956   0.000165030278       0.0017  ATC (I) ATA (I) ATC (I) ATT (I) ATT (I) ATT (I) ATC (I) 
+     6      1    -2.7299270906   0.065224044941       0.6522  ATG (M) ATG (M) ATG (M) ATG (M) ATG (M) ATG (M) ATG (M) 
+     7      1   -15.4288977596   0.000000199212       0.0000  CCG (P) CCG (P) CCG (P) CAA (Q) CAA (Q) CCC (P) CCG (P) 
+     8      1    -5.1742447482   0.005660490396       0.0566  GAG (E) GAG (E) GAG (E) GAG (E) GAG (E) GAG (E) GAG (E) 
+     9      1    -7.3891330298   0.000617931450       0.0062  TTC (F) TTT (F) TTT (F) TTT (F) TTT (F) TTT (F) TTC (F) 
+    10      1    -7.4555809932   0.000578205629       0.0058  TTT (F) TTT (F) TTT (F) TTC (F) TTC (F) TTT (F) TTC (F) 
