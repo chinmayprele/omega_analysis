@@ -6,7 +6,7 @@
 
 The gene _trbl_ functions in the Insulin Signaling Pathway's metabolism and cell growth through encoding the adapter protein "Tribbles" which negatively regulates signaling pathways in regards to the coordination of these biological processes.
 
-The _Drosophila_ species annotated for the evolutionary rate analysis of trbl were as follows:
+The _Drosophila_ species annotated for the evolutionary rate analysis of _trbl_ were as follows:
 	- _D. busckii_,
 	- _D. arizonae_,
 	- _D. persimilis_,
