@@ -52,7 +52,7 @@ plt.xlabel( "peptide position" )
 plt.ylabel( "dN/dS" )
 
 # plt.show()
-plt.savefig( "graph_{}.png".format( gene ) )
+plt.savefig( "dNdS_graph_{}.png".format( gene ) )
 
 sys.exit()
 
