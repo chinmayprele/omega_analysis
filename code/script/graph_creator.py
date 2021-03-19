@@ -41,10 +41,12 @@ for item in omega_lst:
     omegas.append( item[2] )
 
 fig = plt.figure(figsize=(30,3))
-axes= fig.add_axes([0.1,0.1,0.8,0.8])
+axes = fig.add_axes([0.1,0.1,0.8,0.8])
 x = starts
 y = omegas
 axes.plot(x,y)
+
+axes.set_ylim([0,5])
 
 plt.title( gene )
 plt.grid(color='k', linestyle='-', linewidth=0.1)
