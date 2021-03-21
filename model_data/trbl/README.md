@@ -28,6 +28,8 @@ Future directions of these analyses would be to investigate other genes along th
 	- This might be the cause of the issue.
 	- Furthermore, it could also be because "omegas (dN/dS)" could not be `grep`ped out of the file. This seems unlikely because near the `NaN`, the omegas are rather high, and the omegas could be artificially high. More analysis at this region needs to be incorporating more species.
 
+There were also omega values that were rather high, and that brough up the omega value for the entire gene. These values were high due to indels present in the sequence, and the inability of `codeml` to distinguish between them, thus having infinite omega values (`nan`), and near-infinite omega values (`999.00`, which is the upper limit for `codeml`). To calculate the actual dN/dS of this gene, we had to omit the top 5 percentile of windowed values. "5" as a number was chosen randomly, but excision of these values landed us in an omega value we expected for this gene given its position in the pathway.
+
 ## References
 
 - Alvarez-Ponce, David et al. “Network-level molecular evolutionary analysis of the insulin/TOR signal transduction pathway across 12 _Drosophila_ genomes.” Genome research vol. 19,2 (2009): 234-42. [doi:10.1101/gr.084038.108](https://genome.cshlp.org/content/19/2/234.short)
