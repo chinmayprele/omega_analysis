@@ -13,8 +13,8 @@ from Bio import SeqIO
 import sys
 
 ### variables ==================================================================
-omegas_file = "/Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PC/omegas.lst"
-gene = "Akt1-PC"
+omegas_file = "/Users/rele.c/Downloads/omega_analysis/model_data/tgo/omegas.lst"
+gene = "tgo"
 # codon_file = "../data/chico/chico.codons"
 # peptide_file = "../data/chico/chico.pep"
 
