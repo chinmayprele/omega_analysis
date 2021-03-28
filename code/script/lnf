@@ -3,13 +3,13 @@
 
  1
 
-     1      1    -1.7414067654   0.175273658193       1.7527  -NN (-) -NN (-) -NN (-) -NN (-) -NN (-) -NN (-) ANN (*) 
-     2      1   -12.8516484398   0.000002621803       0.0000  AAA (K) CAA (Q) GAA (E) CAA (Q) GAA (E) CAA (Q) GAA (E) 
-     3      1   -12.1741380150   0.000005162250       0.0001  ACC (T) ATC (I) ATC (I) GTC (V) ATC (I) GTC (V) ATC (I) 
-     4      1    -8.9082353486   0.000135270328       0.0014  CAA (Q) AAA (K) CAA (Q) CAA (Q) CAA (Q) CAA (Q) CAA (Q) 
-     5      1   -11.3647464729   0.000011597205       0.0001  CAC (H) CAC (H) CAC (H) AAC (N) CAC (H) AAC (N) CAC (H) 
-     6      1    -4.2000535694   0.014994773539       0.1499  G-- (*) G-- (*) G-- (*) G-- (*) G-- (*) G-- (*) GTA (V) 
-     7      1    -4.8465321446   0.007855572357       0.0786  GCC (A) GCC (A) GCC (A) GCC (A) GCC (A) GCC (A) GCC (A) 
-     8      1    -7.6173564693   0.000491840309       0.0049  GCT (A) GCT (A) GCT (A) GCT (A) GCT (A) GTT (V) GCT (A) 
-     9      1    -8.9153446354   0.000134312063       0.0013  GGC (G) GGC (G) GGC (G) GGC (G) AGC (S) GGC (G) GGC (G) 
-    10      1    -9.7540501332   0.000058059040       0.0006  TGG (W) CGG (R) TGG (W) TGG (W) TGG (W) TGG (W) TGG (W) 
+     1      1     0.0000000000   1.000000000000      10.0000  ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) 
+     2      1    -7.1120122542   0.000815252845       0.0082  AAG (K) AAG (K) AAG (K) AAG (K) AAA (K) AAG (K) AAG (K) 
+     3      1    -7.2701843333   0.000695983689       0.0070  AAT (N) AAC (N) AAT (N) AAT (N) AAT (N) AAT (N) AAT (N) 
+     4      1    -4.6326626391   0.009728820248       0.0973  ACG (T) ACG (T) ACG (T) ACG (T) ACG (T) ACG (T) ACG (T) 
+     5      1   -10.4543922082   0.000028821405       0.0003  CCA (P) CCC (P) CCG (P) CCC (P) CCG (P) CCC (P) CCG (P) 
+     6      1    -9.3688859512   0.000085338407       0.0009  CCG (P) TCG (S) TCG (S) TCG (S) TCG (S) TCG (S) TCG (S) 
+     7      1    -7.8813393696   0.000377726802       0.0038  CGA (R) CGA (R) CGA (R) CGG (R) CGA (R) CGG (R) CGA (R) 
+     8      1    -7.0035298177   0.000908668863       0.0091  CTG (L) CTG (L) CTG (L) CTG (L) CTG (L) TTG (L) CTG (L) 
+     9      1    -8.0518800045   0.000318502573       0.0032  GCC (A) GCA (A) GCC (A) GCC (A) GCC (A) GCC (A) GCC (A) 
+    10      1   -10.9362085866   0.000017801843       0.0002  GGC (G) GGC (G) GGC (G) GGA (G) GGC (G) GGA (G) GGC (G) 
