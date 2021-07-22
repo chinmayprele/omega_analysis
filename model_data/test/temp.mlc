@@ -1,18 +1,18 @@
      13     30
 
-DgriCAF1                        TTT --- ACG CCC ATT GGC AGT CGC TTG GGC 
-DvirCAF1                        TTA --- ATG CCC ACT GGC AGT CGT TTG GGC 
-DariGB1                         ACT TTA GCG ATC ACT GGC GGT CGT TTG GGC 
-DhydGB1                         ACT TTA ACG ATC CCT GGC AGT CGT TTA GGC 
-DmirGB2                         TCC ACG CCC TCG CCA GGC CAC CAG TTG GAC 
-DanaCAF1                        --- --- --- --- --- --- --- --- --- --- 
-DkikGB2                         CCA TCG AGC ACC AAT AGC AGT AGG --- GCC 
-DficGB2                         TCC AGC ACC ATC AGC AGC GGC ACC --- AGC 
-DyakCAF1                        CCC AGC ACC ACA GGG AGC AG- --C --- AGC 
-DereCAF1                        CCC AGC ACC ACA GGG AGC AG- --C --- AGC 
-dm6                             CCC ACC ACC ACA GGG AG- --C AAC --- ATC 
-DsimGB2                         CCC ACC ACG ACA GGC AGC AGC AAC --- ATC 
-DsecCAF1                        CCC ACC ACG ACA GGC AGC AGC AAC --- ATC 
+DgriCAF1                        AGA TCG ACT GTG GTT GCC ACC GCC GCA ACA 
+DvirCAF1                        AGA TCG ACT GTG GTT GCC AGC GCC GCA ACA 
+DariGB1                         AGA TCG ACT GTG GTC GCC AGC GCC GCA CCT 
+DhydGB1                         AGA TCG ACT GTG GTT GCC AGC GCC GCA ACT 
+DmirGB2                         CGA TTG ACT GTG GTT GCC AGC GCT GCT GCA 
+DanaCAF1                        CGA TCG ACT GTG GTT GCC AGC GCC CTA GAG 
+DkikGB2                         CGA TCA ACT GTG GTT GCC AGC GCC GCC CCA 
+DficGB2                         --- --- --A CCA TTT TCC CTG GCC AGC GCC 
+DyakCAF1                        CGA TCG ACT GTG GTT GCC AGC GCC CCA ACG 
+DereCAF1                        CGA TCG ACT GTG GTT GCC AGC GCG CCA GCG 
+dm6                             CGA TCG ACT GTG GTT GCC AGC GCC CCA GCG 
+DsimGB2                         CGA TCG ACT GTG GTT GCC AGC GCC CCA GCG 
+DsecCAF1                        CGA TCG ACT GTG GTT GCC AGC GCC CCA GCG 
 
 
 
@@ -21,197 +21,197 @@ Printing out site pattern counts
 
         13         30  P
 
-DgriCAF1                         --- ACG AGT ATT CCC CGC GGC GGC TTG TTT
-DvirCAF1                         --- ATG AGT ACT CCC CGT GGC GGC TTG TTA
-DariGB1                          TTA GCG GGT ACT ATC CGT GGC GGC TTG ACT
-DhydGB1                          TTA ACG AGT CCT ATC CGT GGC GGC TTA ACT
-DmirGB2                          ACG CCC CAC CCA TCG CAG GAC GGC TTG TCC
-DanaCAF1                         --- --- --- --- --- --- --- --- --- ---
-DkikGB2                          TCG AGC AGT AAT ACC AGG GCC AGC --- CCA
-DficGB2                          AGC ACC GGC AGC ATC ACC AGC AGC --- TCC
-DyakCAF1                         AGC ACC AG- GGG ACA --C AGC AGC --- CCC
-DereCAF1                         AGC ACC AG- GGG ACA --C AGC AGC --- CCC
-dm6                              ACC ACC --C GGG ACA AAC ATC AG- --- CCC
-DsimGB2                          ACC ACG AGC GGC ACA AAC ATC AGC --- CCC
-DsecCAF1                         ACC ACG AGC GGC ACA AAC ATC AGC --- CCC
+DgriCAF1                         ACA ACC ACT AGA GCA GCC GCC GTG GTT TCG
+DvirCAF1                         ACA AGC ACT AGA GCA GCC GCC GTG GTT TCG
+DariGB1                          CCT AGC ACT AGA GCA GCC GCC GTG GTC TCG
+DhydGB1                          ACT AGC ACT AGA GCA GCC GCC GTG GTT TCG
+DmirGB2                          GCA AGC ACT CGA GCT GCC GCT GTG GTT TTG
+DanaCAF1                         GAG AGC ACT CGA CTA GCC GCC GTG GTT TCG
+DkikGB2                          CCA AGC ACT CGA GCC GCC GCC GTG GTT TCA
+DficGB2                          GCC CTG --A --- AGC TCC GCC CCA TTT ---
+DyakCAF1                         ACG AGC ACT CGA CCA GCC GCC GTG GTT TCG
+DereCAF1                         GCG AGC ACT CGA CCA GCC GCG GTG GTT TCG
+dm6                              GCG AGC ACT CGA CCA GCC GCC GTG GTT TCG
+DsimGB2                          GCG AGC ACT CGA CCA GCC GCC GTG GTT TCG
+DsecCAF1                         GCG AGC ACT CGA CCA GCC GCC GTG GTT TCG
 
 
 
     1    1    1    1    1    1    1    1    1    1
 
-CODONML (in paml version 4.8a, August 2014)  /Users/rele.c/Downloads/omega_analysis/model_data/test/temp.aln
+CODONML (in paml version 4.8a, August 2014)  /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/test/temp.aln
 Model: One dN/dS ratio for branches, 
 Codon frequency model: F3x4
 ns =  13  ls =  10
 
 Codon usage in sequences
 --------------------------------------------------------------------------------------------------------------------------------------
-Phe TTT   1   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
-    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   1   0 |     TAC   0   0   0   0   0   0 |     TGC   0   0   0   0   0   0
-Leu TTA   0   1   1   2   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
-    TTG   1   1   1   0   1   0 |     TCG   0   0   0   0   1   0 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
+Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
+    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   0   0 |     TAC   0   0   0   0   0   0 |     TGC   0   0   0   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   0   0   0   0   1   0 |     TCG   1   1   1   1   0   1 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
 --------------------------------------------------------------------------------------------------------------------------------------
-Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   1   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   1   1   1   0   0
-    CTC   0   0   0   0   0   0 |     CCC   1   1   0   0   1   0 |     CAC   0   0   0   0   1   0 |     CGC   1   0   0   0   0   0
-    CTA   0   0   0   0   0   0 |     CCA   0   0   0   0   1   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   0   0
-    CTG   0   0   0   0   0   0 |     CCG   0   0   0   0   0   0 |     CAG   0   0   0   0   1   0 |     CGG   0   0   0   0   0   0
+Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   1   0   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   0   0   0   0   0
+    CTC   0   0   0   0   0   0 |     CCC   0   0   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   0   0   0   0   0   0
+    CTA   0   0   0   0   0   1 |     CCA   0   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   1   1
+    CTG   0   0   0   0   0   0 |     CCG   0   0   0   0   0   0 |     CAG   0   0   0   0   0   0 |     CGG   0   0   0   0   0   0
 --------------------------------------------------------------------------------------------------------------------------------------
-Ile ATT   1   0   0   0   0   0 | Thr ACT   0   1   2   1   0   0 | Asn AAT   0   0   0   0   0   0 | Ser AGT   1   1   0   1   0   0
-    ATC   0   0   1   1   0   0 |     ACC   0   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   0   0   0   0   0   0
-    ATA   0   0   0   0   0   0 |     ACA   0   0   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
-Met ATG   0   1   0   0   0   0 |     ACG   1   0   0   1   1   0 |     AAG   0   0   0   0   0   0 |     AGG   0   0   0   0   0   0
+Ile ATT   0   0   0   0   0   0 | Thr ACT   1   1   1   2   1   1 | Asn AAT   0   0   0   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   0   0   0   0   0   0 |     ACC   1   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   0   1   1   1   1   1
+    ATA   0   0   0   0   0   0 |     ACA   1   1   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   1   1   1   1   0   0
+Met ATG   0   0   0   0   0   0 |     ACG   0   0   0   0   0   0 |     AAG   0   0   0   0   0   0 |     AGG   0   0   0   0   0   0
 --------------------------------------------------------------------------------------------------------------------------------------
-Val GTT   0   0   0   0   0   0 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   1   0   0   0
-    GTC   0   0   0   0   0   0 |     GCC   0   0   0   0   0   0 |     GAC   0   0   0   0   1   0 |     GGC   2   2   2   2   1   0
-    GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
-    GTG   0   0   0   0   0   0 |     GCG   0   0   1   0   0   0 |     GAG   0   0   0   0   0   0 |     GGG   0   0   0   0   0   0
+Val GTT   1   1   0   1   1   1 | Ala GCT   0   0   0   0   2   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   0   0   1   0   0   0 |     GCC   2   2   2   2   1   2 |     GAC   0   0   0   0   0   0 |     GGC   0   0   0   0   0   0
+    GTA   0   0   0   0   0   0 |     GCA   1   1   1   1   1   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
+    GTG   1   1   1   1   1   1 |     GCG   0   0   0   0   0   0 |     GAG   0   0   0   0   0   1 |     GGG   0   0   0   0   0   0
 --------------------------------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------------------------------
-Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
+Phe TTT   0   1   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   0   0   0   0   0   0 | Cys TGT   0   0   0   0   0   0
     TTC   0   0   0   0   0   0 |     TCC   0   1   0   0   0   0 |     TAC   0   0   0   0   0   0 |     TGC   0   0   0   0   0   0
-Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
-    TTG   0   0   0   0   0   0 |     TCG   1   0   0   0   0   0 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   1   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   0   0   0   0   0   0 |     TCG   0   0   1   1   1   1 |     TAG   0   0   0   0   0   0 | Trp TGG   0   0   0   0   0   0
 --------------------------------------------------------------------------------------------------------------------------------------
 Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   0   0   0 | His CAT   0   0   0   0   0   0 | Arg CGT   0   0   0   0   0   0
-    CTC   0   0   0   0   0   0 |     CCC   0   0   1   1   1   1 |     CAC   0   0   0   0   0   0 |     CGC   0   0   0   0   0   0
-    CTA   0   0   0   0   0   0 |     CCA   1   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   0   0   0   0   0
-    CTG   0   0   0   0   0   0 |     CCG   0   0   0   0   0   0 |     CAG   0   0   0   0   0   0 |     CGG   0   0   0   0   0   0
+    CTC   0   0   0   0   0   0 |     CCC   0   0   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   0   0   0   0   0   0
+    CTA   0   0   0   0   0   0 |     CCA   1   1   1   1   1   1 | Gln CAA   0   0   0   0   0   0 |     CGA   1   0   1   1   1   1
+    CTG   0   1   0   0   0   0 |     CCG   0   0   0   0   0   0 |     CAG   0   0   0   0   0   0 |     CGG   0   0   0   0   0   0
 --------------------------------------------------------------------------------------------------------------------------------------
-Ile ATT   0   0   0   0   0   0 | Thr ACT   0   0   0   0   0   0 | Asn AAT   1   0   0   0   0   0 | Ser AGT   1   0   0   0   0   0
-    ATC   0   1   0   0   1   1 |     ACC   1   2   1   1   2   1 |     AAC   0   0   0   0   1   1 |     AGC   2   4   3   3   0   2
-    ATA   0   0   0   0   0   0 |     ACA   0   0   1   1   1   1 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
-Met ATG   0   0   0   0   0   0 |     ACG   0   0   0   0   0   1 |     AAG   0   0   0   0   0   0 |     AGG   1   0   0   0   0   0
+Ile ATT   0   0   0   0   0   0 | Thr ACT   1   0   1   1   1   1 | Asn AAT   0   0   0   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   0   0   0   0   0   0 |     ACC   0   0   0   0   0   0 |     AAC   0   0   0   0   0   0 |     AGC   1   1   1   1   1   1
+    ATA   0   0   0   0   0   0 |     ACA   0   0   0   0   0   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   0   0   0   0   0   0
+Met ATG   0   0   0   0   0   0 |     ACG   0   0   1   0   0   0 |     AAG   0   0   0   0   0   0 |     AGG   0   0   0   0   0   0
 --------------------------------------------------------------------------------------------------------------------------------------
-Val GTT   0   0   0   0   0   0 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
-    GTC   0   0   0   0   0   0 |     GCC   1   0   0   0   0   0 |     GAC   0   0   0   0   0   0 |     GGC   0   1   0   0   0   1
+Val GTT   1   0   1   1   1   1 | Ala GCT   0   0   0   0   0   0 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   0   0   0   0   0   0 |     GCC   3   2   2   1   2   2 |     GAC   0   0   0   0   0   0 |     GGC   0   0   0   0   0   0
     GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   0   0   0   0   0   0 |     GGA   0   0   0   0   0   0
-    GTG   0   0   0   0   0   0 |     GCG   0   0   0   0   0   0 |     GAG   0   0   0   0   0   0 |     GGG   0   0   1   1   1   0
+    GTG   1   0   1   1   1   1 |     GCG   0   0   0   2   1   1 |     GAG   0   0   0   0   0   0 |     GGG   0   0   0   0   0   0
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------
 Phe TTT   0 | Ser TCT   0 | Tyr TAT   0 | Cys TGT   0
     TTC   0 |     TCC   0 |     TAC   0 |     TGC   0
 Leu TTA   0 |     TCA   0 | *** TAA   0 | *** TGA   0
-    TTG   0 |     TCG   0 |     TAG   0 | Trp TGG   0
+    TTG   0 |     TCG   1 |     TAG   0 | Trp TGG   0
 ------------------------------------------------------
 Leu CTT   0 | Pro CCT   0 | His CAT   0 | Arg CGT   0
-    CTC   0 |     CCC   1 |     CAC   0 |     CGC   0
-    CTA   0 |     CCA   0 | Gln CAA   0 |     CGA   0
+    CTC   0 |     CCC   0 |     CAC   0 |     CGC   0
+    CTA   0 |     CCA   1 | Gln CAA   0 |     CGA   1
     CTG   0 |     CCG   0 |     CAG   0 |     CGG   0
 ------------------------------------------------------
-Ile ATT   0 | Thr ACT   0 | Asn AAT   0 | Ser AGT   0
-    ATC   1 |     ACC   1 |     AAC   1 |     AGC   2
-    ATA   0 |     ACA   1 | Lys AAA   0 | Arg AGA   0
-Met ATG   0 |     ACG   1 |     AAG   0 |     AGG   0
+Ile ATT   0 | Thr ACT   1 | Asn AAT   0 | Ser AGT   0
+    ATC   0 |     ACC   0 |     AAC   0 |     AGC   1
+    ATA   0 |     ACA   0 | Lys AAA   0 | Arg AGA   0
+Met ATG   0 |     ACG   0 |     AAG   0 |     AGG   0
 ------------------------------------------------------
-Val GTT   0 | Ala GCT   0 | Asp GAT   0 | Gly GGT   0
-    GTC   0 |     GCC   0 |     GAC   0 |     GGC   1
+Val GTT   1 | Ala GCT   0 | Asp GAT   0 | Gly GGT   0
+    GTC   0 |     GCC   2 |     GAC   0 |     GGC   0
     GTA   0 |     GCA   0 | Glu GAA   0 |     GGA   0
-    GTG   0 |     GCG   0 |     GAG   0 |     GGG   0
+    GTG   1 |     GCG   1 |     GAG   0 |     GGG   0
 ------------------------------------------------------
 
 Codon position x base (3x4) table for each sequence.
 
 #1: DgriCAF1       
-position  1:    T:0.22222    C:0.22222    A:0.33333    G:0.22222
-position  2:    T:0.33333    C:0.22222    A:0.00000    G:0.44444
-position  3:    T:0.33333    C:0.44444    A:0.00000    G:0.22222
-Average         T:0.29630    C:0.29630    A:0.11111    G:0.29630
+position  1:    T:0.10000    C:0.00000    A:0.40000    G:0.50000
+position  2:    T:0.20000    C:0.70000    A:0.00000    G:0.10000
+position  3:    T:0.20000    C:0.30000    A:0.30000    G:0.20000
+Average         T:0.16667    C:0.33333    A:0.23333    G:0.26667
 
 #2: DvirCAF1       
-position  1:    T:0.22222    C:0.22222    A:0.33333    G:0.22222
-position  2:    T:0.33333    C:0.22222    A:0.00000    G:0.44444
-position  3:    T:0.33333    C:0.33333    A:0.11111    G:0.22222
-Average         T:0.29630    C:0.25926    A:0.14815    G:0.29630
+position  1:    T:0.10000    C:0.00000    A:0.40000    G:0.50000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.20000    C:0.30000    A:0.30000    G:0.20000
+Average         T:0.16667    C:0.30000    A:0.23333    G:0.30000
 
 #3: DariGB1        
-position  1:    T:0.20000    C:0.10000    A:0.30000    G:0.40000
-position  2:    T:0.30000    C:0.30000    A:0.00000    G:0.40000
-position  3:    T:0.40000    C:0.30000    A:0.10000    G:0.20000
-Average         T:0.30000    C:0.23333    A:0.13333    G:0.33333
+position  1:    T:0.10000    C:0.10000    A:0.30000    G:0.50000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.20000    C:0.40000    A:0.20000    G:0.20000
+Average         T:0.16667    C:0.36667    A:0.16667    G:0.30000
 
 #4: DhydGB1        
-position  1:    T:0.20000    C:0.20000    A:0.40000    G:0.20000
-position  2:    T:0.30000    C:0.30000    A:0.00000    G:0.40000
-position  3:    T:0.40000    C:0.30000    A:0.20000    G:0.10000
-Average         T:0.30000    C:0.26667    A:0.20000    G:0.23333
+position  1:    T:0.10000    C:0.00000    A:0.40000    G:0.50000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.30000    C:0.30000    A:0.20000    G:0.20000
+Average         T:0.20000    C:0.30000    A:0.20000    G:0.30000
 
 #5: DmirGB2        
-position  1:    T:0.30000    C:0.40000    A:0.10000    G:0.20000
-position  2:    T:0.10000    C:0.50000    A:0.30000    G:0.10000
-position  3:    T:0.00000    C:0.50000    A:0.10000    G:0.40000
-Average         T:0.13333    C:0.46667    A:0.16667    G:0.23333
+position  1:    T:0.10000    C:0.10000    A:0.20000    G:0.60000
+position  2:    T:0.30000    C:0.50000    A:0.00000    G:0.20000
+position  3:    T:0.40000    C:0.20000    A:0.20000    G:0.20000
+Average         T:0.26667    C:0.26667    A:0.13333    G:0.33333
 
 #6: DanaCAF1       
-position  1:    T:    nan    C:    nan    A:    nan    G:    nan
-position  2:    T:    nan    C:    nan    A:    nan    G:    nan
-position  3:    T:    nan    C:    nan    A:    nan    G:    nan
-Average         T:    nan    C:    nan    A:    nan    G:    nan
+position  1:    T:0.10000    C:0.20000    A:0.20000    G:0.50000
+position  2:    T:0.30000    C:0.40000    A:0.10000    G:0.20000
+position  3:    T:0.20000    C:0.30000    A:0.20000    G:0.30000
+Average         T:0.20000    C:0.30000    A:0.16667    G:0.33333
 
 #7: DkikGB2        
-position  1:    T:0.11111    C:0.11111    A:0.66667    G:0.11111
-position  2:    T:0.00000    C:0.44444    A:0.11111    G:0.44444
-position  3:    T:0.22222    C:0.44444    A:0.11111    G:0.22222
-Average         T:0.11111    C:0.33333    A:0.29630    G:0.25926
+position  1:    T:0.10000    C:0.20000    A:0.20000    G:0.50000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.20000    C:0.40000    A:0.30000    G:0.10000
+Average         T:0.16667    C:0.40000    A:0.16667    G:0.26667
 
 #8: DficGB2        
-position  1:    T:0.11111    C:0.00000    A:0.77778    G:0.11111
-position  2:    T:0.11111    C:0.33333    A:0.00000    G:0.55556
-position  3:    T:0.00000    C:1.00000    A:0.00000    G:0.00000
-Average         T:0.07407    C:0.44444    A:0.25926    G:0.22222
+position  1:    T:0.28571    C:0.28571    A:0.14286    G:0.28571
+position  2:    T:0.28571    C:0.57143    A:0.00000    G:0.14286
+position  3:    T:0.14286    C:0.57143    A:0.14286    G:0.14286
+Average         T:0.23810    C:0.47619    A:0.09524    G:0.19048
 
 #9: DyakCAF1       
-position  1:    T:0.00000    C:0.14286    A:0.71429    G:0.14286
-position  2:    T:0.00000    C:0.42857    A:0.00000    G:0.57143
-position  3:    T:0.00000    C:0.71429    A:0.14286    G:0.14286
-Average         T:0.00000    C:0.42857    A:0.28571    G:0.28571
+position  1:    T:0.10000    C:0.20000    A:0.30000    G:0.40000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.20000    C:0.30000    A:0.20000    G:0.30000
+Average         T:0.16667    C:0.36667    A:0.16667    G:0.30000
 
 #10: DereCAF1       
-position  1:    T:0.00000    C:0.14286    A:0.71429    G:0.14286
-position  2:    T:0.00000    C:0.42857    A:0.00000    G:0.57143
-position  3:    T:0.00000    C:0.71429    A:0.14286    G:0.14286
-Average         T:0.00000    C:0.42857    A:0.28571    G:0.28571
+position  1:    T:0.10000    C:0.20000    A:0.20000    G:0.50000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.20000    C:0.20000    A:0.20000    G:0.40000
+Average         T:0.16667    C:0.33333    A:0.13333    G:0.36667
 
 #11: dm6            
-position  1:    T:0.00000    C:0.14286    A:0.71429    G:0.14286
-position  2:    T:0.14286    C:0.57143    A:0.14286    G:0.14286
-position  3:    T:0.00000    C:0.71429    A:0.14286    G:0.14286
-Average         T:0.04762    C:0.47619    A:0.33333    G:0.14286
+position  1:    T:0.10000    C:0.20000    A:0.20000    G:0.50000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.20000    C:0.30000    A:0.20000    G:0.30000
+Average         T:0.16667    C:0.36667    A:0.13333    G:0.33333
 
 #12: DsimGB2        
-position  1:    T:0.00000    C:0.11111    A:0.77778    G:0.11111
-position  2:    T:0.11111    C:0.44444    A:0.11111    G:0.33333
-position  3:    T:0.00000    C:0.77778    A:0.11111    G:0.11111
-Average         T:0.03704    C:0.44444    A:0.33333    G:0.18519
+position  1:    T:0.10000    C:0.20000    A:0.20000    G:0.50000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.20000    C:0.30000    A:0.20000    G:0.30000
+Average         T:0.16667    C:0.36667    A:0.13333    G:0.33333
 
 #13: DsecCAF1       
-position  1:    T:0.00000    C:0.11111    A:0.77778    G:0.11111
-position  2:    T:0.11111    C:0.44444    A:0.11111    G:0.33333
-position  3:    T:0.00000    C:0.77778    A:0.11111    G:0.11111
-Average         T:0.03704    C:0.44444    A:0.33333    G:0.18519
+position  1:    T:0.10000    C:0.20000    A:0.20000    G:0.50000
+position  2:    T:0.20000    C:0.60000    A:0.00000    G:0.20000
+position  3:    T:0.20000    C:0.30000    A:0.20000    G:0.30000
+Average         T:0.16667    C:0.36667    A:0.13333    G:0.33333
 
 Sums of codon usage counts
 ------------------------------------------------------------------------------
 Phe F TTT       1 | Ser S TCT       0 | Tyr Y TAT       0 | Cys C TGT       0
-      TTC       0 |       TCC       2 |       TAC       0 |       TGC       0
-Leu L TTA       4 |       TCA       0 | *** * TAA       0 | *** * TGA       0
-      TTG       4 |       TCG       2 |       TAG       0 | Trp W TGG       0
+      TTC       0 |       TCC       1 |       TAC       0 |       TGC       0
+Leu L TTA       0 |       TCA       1 | *** * TAA       0 | *** * TGA       0
+      TTG       1 |       TCG      10 |       TAG       0 | Trp W TGG       0
 ------------------------------------------------------------------------------
-Leu L CTT       0 | Pro P CCT       1 | His H CAT       0 | Arg R CGT       3
-      CTC       0 |       CCC       8 |       CAC       1 |       CGC       1
-      CTA       0 |       CCA       2 | Gln Q CAA       0 |       CGA       0
-      CTG       0 |       CCG       0 |       CAG       1 |       CGG       0
+Leu L CTT       0 | Pro P CCT       1 | His H CAT       0 | Arg R CGT       0
+      CTC       0 |       CCC       0 |       CAC       0 |       CGC       0
+      CTA       1 |       CCA       7 | Gln Q CAA       0 |       CGA       8
+      CTG       1 |       CCG       0 |       CAG       0 |       CGG       0
 ------------------------------------------------------------------------------
-Ile I ATT       1 | Thr T ACT       4 | Asn N AAT       1 | Ser S AGT       4
-      ATC       6 |       ACC       9 |       AAC       3 |       AGC      16
-      ATA       0 |       ACA       5 | Lys K AAA       0 | Arg R AGA       0
-Met M ATG       1 |       ACG       5 |       AAG       0 |       AGG       1
+Ile I ATT       0 | Thr T ACT      13 | Asn N AAT       0 | Ser S AGT       0
+      ATC       0 |       ACC       1 |       AAC       0 |       AGC      12
+      ATA       0 |       ACA       2 | Lys K AAA       0 | Arg R AGA       4
+Met M ATG       0 |       ACG       1 |       AAG       0 |       AGG       0
 ------------------------------------------------------------------------------
-Val V GTT       0 | Ala A GCT       0 | Asp D GAT       0 | Gly G GGT       1
-      GTC       0 |       GCC       1 |       GAC       1 |       GGC      12
-      GTA       0 |       GCA       0 | Glu E GAA       0 |       GGA       0
-      GTG       0 |       GCG       1 |       GAG       0 |       GGG       3
+Val V GTT      11 | Ala A GCT       2 | Asp D GAT       0 | Gly G GGT       0
+      GTC       1 |       GCC      25 |       GAC       0 |       GGC       0
+      GTA       0 |       GCA       5 | Glu E GAA       0 |       GGA       0
+      GTG      12 |       GCG       5 |       GAG       1 |       GGG       0
 ------------------------------------------------------------------------------
 
 (Ambiguity data are not used in the counts.)
@@ -219,28 +219,28 @@ Val V GTT       0 | Ala A GCT       0 | Asp D GAT       0 | Gly G GGT       1
 
 Codon position x base (3x4) table, overall
 
-position  1:    T:0.12381    C:0.16190    A:0.53333    G:0.18095
-position  2:    T:0.16190    C:0.38095    A:0.06667    G:0.39048
-position  3:    T:0.15238    C:0.57143    A:0.10476    G:0.17143
-Average         T:0.14603    C:0.37143    A:0.23492    G:0.24762
+position  1:    T:0.11024    C:0.14173    A:0.25984    G:0.48819
+position  2:    T:0.22047    C:0.58268    A:0.00787    G:0.18898
+position  3:    T:0.22047    C:0.31496    A:0.22047    G:0.24409
+Average         T:0.18373    C:0.34646    A:0.16273    G:0.30709
 
 Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
-  0.00282703  0.01113145  0.00194359  0.00318041
-  0.00665184  0.02619164  0.00457314  0.00748332
-  0.00116407  0.00458354  0.00000000  0.00000000
-  0.00731703  0.02881080  0.00000000  0.00823166
-  0.00369689  0.01455651  0.00254161  0.00415900
-  0.00869857  0.03425060  0.00598026  0.00978589
-  0.00152225  0.00599386  0.00104655  0.00171253
-  0.00956842  0.03767566  0.00657829  0.01076447
-  0.01283038  0.05051964  0.00882089  0.01443418
-  0.03018914  0.11886973  0.02075503  0.03396278
-  0.00528310  0.02080220  0.00363213  0.00594349
-  0.03320805  0.13075670  0.02283054  0.03735906
-  0.00413182  0.01626904  0.00284063  0.00464830
-  0.00972193  0.03828008  0.00668382  0.01093717
-  0.00170134  0.00669901  0.00116967  0.00191400
-  0.01069412  0.04210809  0.00735221  0.01203088
+  0.00534391  0.00763415  0.00553476  0.00591647
+  0.01412318  0.02017598  0.01462758  0.01563638
+  0.00019085  0.00027265  0.00000000  0.00000000
+  0.00458049  0.00654356  0.00000000  0.00507126
+  0.00687074  0.00981534  0.00711612  0.00760689
+  0.01815838  0.02594054  0.01880689  0.02010392
+  0.00024538  0.00035055  0.00025415  0.00027167
+  0.00588920  0.00841315  0.00609953  0.00652019
+  0.01259635  0.01799479  0.01304622  0.01394596
+  0.03329036  0.04755766  0.03447930  0.03685718
+  0.00044987  0.00064267  0.00046594  0.00049807
+  0.01079687  0.01542410  0.01118248  0.01195368
+  0.02366587  0.03380839  0.02451108  0.02620150
+  0.06254552  0.08935075  0.06477929  0.06924683
+  0.00084521  0.00120744  0.00087540  0.00093577
+  0.02028503  0.02897862  0.02100950  0.02245843
 
 
 
@@ -250,15 +250,15 @@ Nei & Gojobori 1986. dN/dS (dN, dS)
 Use runmode = -2 for ML pairwise comparison.)
 
 DgriCAF1            
-DvirCAF1             1.0574 (0.1674 0.1583)
-DariGB1              3.5228 (0.4979 0.1413) 5.7470 (0.5295 0.0921)
-DhydGB1              1.1939 (0.3953 0.3311) 1.5764 (0.4225 0.2680) 1.3218 (0.1586 0.1200)
-DmirGB2             -1.0000 (0.7529 -1.0000) 0.5061 (0.8694 1.7177) 0.6116 (1.0665 1.7438)-1.0000 (0.8709 -1.0000)
-DanaCAF1            -1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)
-DkikGB2              1.2496 (0.7463 0.5972) 2.1505 (0.7163 0.3331) 1.0857 (0.9016 0.8304) 0.9013 (0.7500 0.8321) 1.1619 (1.4259 1.2273)-1.0000 (-1.0000 -1.0000)
-DficGB2              0.5000 (0.8240 1.6479) 0.7186 (1.2495 1.7389) 0.3213 (0.8057 2.5076)-1.0000 (0.9382 -1.0000) 4.9428 (2.3727 0.4800)-1.0000 (-1.0000 -1.0000) 0.5597 (0.9021 1.6118)
-DyakCAF1             0.4232 (1.0688 2.5255) 0.7544 (1.5443 2.0471) 0.6945 (1.5158 2.1826) 0.3500 (1.0875 3.1074) 2.0129 (1.3225 0.6570)-1.0000 (-1.0000 -1.0000) 0.8281 (0.8599 1.0384) 0.5656 (0.2493 0.4408)
-DereCAF1             0.4232 (1.0688 2.5255) 0.7544 (1.5443 2.0471) 0.6945 (1.5158 2.1826) 0.3500 (1.0875 3.1074) 2.0129 (1.3225 0.6570)-1.0000 (-1.0000 -1.0000) 0.8281 (0.8599 1.0384) 0.5656 (0.2493 0.4408)-1.0000 (0.0000 0.0000)
-dm6                  1.3528 (2.7477 2.0310)-1.0000 (-1.0000 -1.0000)-1.0000 (-1.0000 -1.0000)-1.0000 (2.0513 -1.0000) 1.4157 (1.1928 0.8426)-1.0000 (-1.0000 -1.0000) 0.9366 (1.0575 1.1291) 1.7141 (0.6042 0.3525)-1.0000 (0.1747 0.0000)-1.0000 (0.1747 0.0000)
-DsimGB2              0.6144 (1.0124 1.6479)-1.0000 (1.2495 -1.0000) 0.4682 (1.8585 3.9693)-1.0000 (1.0873 -1.0000) 1.0814 (1.1950 1.1050)-1.0000 (-1.0000 -1.0000)-1.0000 (0.5979 -1.0000) 1.0992 (0.4506 0.4099) 0.2846 (0.1416 0.4975) 0.2846 (0.1416 0.4975)-1.0000 (0.0000 0.4408)
-DsecCAF1             0.6144 (1.0124 1.6479)-1.0000 (1.2495 -1.0000) 0.4682 (1.8585 3.9693)-1.0000 (1.0873 -1.0000) 1.0814 (1.1950 1.1050)-1.0000 (-1.0000 -1.0000)-1.0000 (0.5979 -1.0000) 1.0992 (0.4506 0.4099) 0.2846 (0.1416 0.4975) 0.2846 (0.1416 0.4975)-1.0000 (0.0000 0.4408)-1.0000 (0.0000 0.0000)
+DvirCAF1            -1.0000 (0.0506 0.0000)
+DariGB1              0.4264 (0.1048 0.2457) 0.1937 (0.0497 0.2566)
+DhydGB1              0.4480 (0.0506 0.1128)-1.0000 (0.0000 0.1174) 0.4235 (0.0497 0.1174)
+DmirGB2              0.4140 (0.1647 0.3979) 0.2489 (0.1038 0.4172) 0.1115 (0.1038 0.9313) 0.1645 (0.1038 0.6310)
+DanaCAF1             1.2546 (0.2999 0.2390) 0.9027 (0.2251 0.2493) 0.7905 (0.2586 0.3272) 1.4464 (0.2586 0.1788) 0.5622 (0.2273 0.4042)
+DkikGB2              0.2772 (0.1070 0.3860) 0.1254 (0.0507 0.4042)-1.0000 (0.0000 0.8892) 0.0834 (0.0507 0.6082) 0.2685 (0.1060 0.3949) 0.5876 (0.2303 0.3919)
+DficGB2              1.6339 (1.5510 0.9492) 1.5930 (1.5239 0.9567) 0.7352 (1.5239 2.0727) 1.5930 (1.5239 0.9567)-1.0000 (1.0369 -1.0000) 2.0531 (1.6674 0.8121) 2.1248 (1.3695 0.6445)
+DyakCAF1             0.4525 (0.1067 0.2358) 0.2057 (0.0506 0.2457) 0.2572 (0.1048 0.4073) 0.2057 (0.0506 0.2457) 0.4140 (0.1647 0.3979)-1.0000 (0.1652 0.0000) 0.2772 (0.1070 0.3860) 1.3608 (1.4428 1.0603)
+DereCAF1             0.4276 (0.1663 0.3889) 0.2572 (0.1048 0.4073) 0.1707 (0.1048 0.6136) 0.2572 (0.1048 0.4073) 0.2657 (0.1057 0.3979) 0.9636 (0.1060 0.1100) 0.1856 (0.1070 0.5765) 0.3999 (1.0831 2.7082) 0.4735 (0.0514 0.1087)
+dm6                  0.7054 (0.1663 0.2358) 0.4264 (0.1048 0.2457) 0.2572 (0.1048 0.4073) 0.4264 (0.1048 0.2457) 0.2657 (0.1057 0.3979)-1.0000 (0.1060 0.0000) 0.2772 (0.1070 0.3860) 1.0215 (1.0831 1.0603)-1.0000 (0.0514 0.0000)-1.0000 (0.0000 0.1087)
+DsimGB2              0.7054 (0.1663 0.2358) 0.4264 (0.1048 0.2457) 0.2572 (0.1048 0.4073) 0.4264 (0.1048 0.2457) 0.2657 (0.1057 0.3979)-1.0000 (0.1060 0.0000) 0.2772 (0.1070 0.3860) 1.0215 (1.0831 1.0603)-1.0000 (0.0514 0.0000)-1.0000 (0.0000 0.1087)-1.0000 (0.0000 0.0000)
+DsecCAF1             0.7054 (0.1663 0.2358) 0.4264 (0.1048 0.2457) 0.2572 (0.1048 0.4073) 0.4264 (0.1048 0.2457) 0.2657 (0.1057 0.3979)-1.0000 (0.1060 0.0000) 0.2772 (0.1070 0.3860) 1.0215 (1.0831 1.0603)-1.0000 (0.0514 0.0000)-1.0000 (0.0000 0.1087)-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0000)

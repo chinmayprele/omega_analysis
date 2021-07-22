@@ -21,13 +21,13 @@ from Bio.Phylo.PAML import codeml
 ### inputs ==================================================================
 window_size = 10            # in terms of codons
 
-codeml_path = "/Users/rele.c/Downloads/omega_analysis/paml4.8/bin/codeml"
+codeml_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/paml4.8/bin/codeml"
 
 ### finding gene ==================================================================
 
 from pathlib import Path
 
-path = "/Users/rele.c/Downloads/omega_analysis/model_data/"
+path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/"
 
 genes = []
 for temp in Path(path).iterdir():
@@ -40,15 +40,15 @@ for i in range( len( genes ) ):
 gene = genes[ int(input( "Which gene should be analyzed: " )) ]
 # gene = genes[ 4 ] # for testing purposes
 
-aln_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/raw_data/{0}.msa.aln".format( gene )
-codons_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/{0}.codons".format( gene )
-mlc_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/{0}.mlc".format( gene )
-tree_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/raw_data/{0}.nwk".format( gene )
-gene_dir_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/".format( gene )
-full_gene_analysis = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/full_gene_{0}.out".format( gene )
-codeml_ctl_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/ctl_files/codeml.ctl".format( gene )
-mini_ctl_path = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/ctl_files/mini_codeml.ctl".format( gene )
-high_omegas = "/Users/rele.c/Downloads/omega_analysis/model_data/{0}/{0}_high_omegas.fna".format( gene )
+aln_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/raw_data/{0}.msa.aln".format( gene )
+codons_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/{0}.codons".format( gene )
+mlc_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/{0}.mlc".format( gene )
+tree_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/raw_data/{0}.nwk".format( gene )
+gene_dir_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/".format( gene )
+full_gene_analysis = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/full_gene_{0}.out".format( gene )
+codeml_ctl_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/ctl_files/codeml.ctl".format( gene )
+mini_ctl_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/ctl_files/mini_codeml.ctl".format( gene )
+high_omegas = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/{0}_high_omegas.fna".format( gene )
 
 print( "aln_path: ".rjust(30), aln_path )
 print( "codons_path: ".rjust(30), codons_path )

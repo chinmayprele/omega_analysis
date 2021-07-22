@@ -76,7 +76,7 @@ DsecCAF1                         --- --- --- --- AAC AC- AGC ACC --G C-- ACA AGT
     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
     1    1    1    1    1    1    1    2    1    1    3
 
-CODONML (in paml version 4.8a, August 2014)  /Users/rele.c/Downloads/omega_analysis/model_data/test/raw_data/test.msa.aln
+CODONML (in paml version 4.8a, August 2014)  /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/test/raw_data/test.msa.aln
 Model: One dN/dS ratio for branches, 
 Codon frequency model: F3x4
 ns =  13  ls = 639
@@ -353,4 +353,4 @@ tree length for dN:       0.4941
 tree length for dS:       3.5947
 
 
-Time used:  0:51
+Time used:  0:54
