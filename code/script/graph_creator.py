@@ -14,7 +14,7 @@ import sys
 
 ### variables ==================================================================
 
-gene = "Ilp5-PA"
+gene = "Ilp3-PA"
 omegas_file = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/omegas.lst".format( gene )
 
 # codon_file = "../data/chico/chico.codons"

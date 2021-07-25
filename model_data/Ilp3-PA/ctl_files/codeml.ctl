@@ -1,6 +1,6 @@
-seqfile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PE/raw_data/Akt1-PE.msa.aln
-treefile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PE/raw_data/Akt1-PE.nwk
-outfile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PE/Akt1-PE.mlc
+seqfile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Ilp3-PA/raw_data/Ilp3-PA.msa.aln
+treefile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Ilp3-PA/raw_data/Ilp3-PA.nwk
+outfile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Ilp3-PA/Ilp3-PA.mlc
 
 runmode = 0
 seqtype = 1

@@ -1,6 +1,6 @@
-seqfile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PE/temp.aln
-treefile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PE/raw_data/Akt1-PE.nwk
-outfile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PE/temp.mlc
+seqfile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Ilp3-PA/temp.aln
+treefile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Ilp3-PA/raw_data/Ilp3-PA.nwk
+outfile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Ilp3-PA/temp.mlc
 
 runmode = 0
 seqtype = 1
