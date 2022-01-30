@@ -1,6 +1,6 @@
-seqfile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PC/raw_data/Akt1-PC.msa.aln
-treefile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PC/raw_data/Akt1-PC.nwk
-outfile = /Users/rele.c/Downloads/omega_analysis/model_data/Akt1-PC/Akt1-PC.mlc
+seqfile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Akt1-PC/raw_data/Akt1-PC.msa.aln
+treefile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Akt1-PC/raw_data/Akt1-PC.nwk
+outfile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Akt1-PC/Akt1-PC.mlc
 
 runmode = 0
 seqtype = 1
