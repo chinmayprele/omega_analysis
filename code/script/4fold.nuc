@@ -1,40 +1,40 @@
     12       2
 
-DsimGB2
-CG
-
-DsecCAF1
-CG
-
-dm6
-CG
-
-DhydGB1
+DmojCAF1
 TA
 
-DgriCAF1
-TT
-
-DeugGB2
-TC
-
-DereCAF1
-CC
-
-DanaCAF1
+DpseGB3
 CC
 
 DwilCAF1
 CC
 
-DpseGB3
-CC
-
-DmojCAF1
-TA
-
 DyakCAF1
 CC
+
+DanaCAF1
+CC
+
+DereCAF1
+CC
+
+DeugGB2
+TC
+
+DgriCAF1
+TT
+
+DhydGB1
+TT
+
+dm6
+CG
+
+DsecCAF1
+CG
+
+DsimGB2
+CG
 
 
 codons included
