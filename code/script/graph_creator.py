@@ -14,7 +14,7 @@ import sys
 
 ### variables ==================================================================
 
-gene = "GlyS-PA"
+gene = "GlyS-PC"
 omegas_file = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/omegas.lst".format( gene )
 
 # codon_file = "../data/chico/chico.codons"
