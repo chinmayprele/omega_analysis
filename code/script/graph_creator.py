@@ -14,8 +14,10 @@ import sys
 
 ### variables ==================================================================
 
-gene = "Tor-PA"
+gene = "Pdk1-PG"
 omegas_file = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/omegas.lst".format( gene )
+
+out_image_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/images".format( gene )
 
 # codon_file = "../data/chico/chico.codons"
 # peptide_file = "../data/chico/chico.pep"
@@ -56,7 +58,7 @@ plt.xlabel( "peptide position" )
 plt.ylabel( "dN/dS" )
 
 # plt.show()
-plt.savefig( "dNdS_graph_{}.png".format( gene ) )
+plt.savefig( "{0}/dNdS_graph_{1}.png".format( out_image_path, gene ) )
 
 sys.exit()
 

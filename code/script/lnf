@@ -1,14 +1,1 @@
-    -1     10      9
-
-
- 1
-
-     1      1     0.0000000000   1.000000000000      10.0000  ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) ??? (-) 
-     2      1    -6.1934117063   0.002042845263       0.0204  ATC (I) ATT (I) ATT (I) --- (-) ATT (I) --- (-) ATT (I) ATT (I) ATT (I) ATT (I) ATT (I) 
-     3      1    -7.6737719997   0.000464861057       0.0046  CCC (P) CCC (P) CCG (P) --- (-) CCG (P) --- (-) CCG (P) CCG (P) CCG (P) CCG (P) CCC (P) 
-     4      1    -8.5237874498   0.000198685487       0.0020  GGC (G) GGC (G) GGC (G) --- (-) GGC (G) --- (-) GGC (G) GGT (G) GGC (G) GGC (G) GGC (G) 
-     5      1    -5.1069803152   0.006054337539       0.0605  TAC (Y) TAT (Y) TAC (Y) --- (-) TAC (Y) --- (-) TAC (Y) TAC (Y) TAC (Y) TAC (Y) TAT (Y) 
-     6      1    -3.7229279477   0.024163115831       0.2416  TGC (C) TGC (C) TGC (C) --- (-) TGC (C) --- (-) TGC (C) TGC (C) TGC (C) TGC (C) TGC (C) 
-     7      2    -2.2095275787   0.109752485679       1.0975  TGG (W) TGG (W) TGG (W) --- (-) TGG (W) --- (-) TGG (W) TGG (W) TGG (W) TGG (W) TGG (W) 
-     8      1    -5.3950052036   0.004539196779       0.0454  TGT (C) TGT (C) TGT (C) --- (-) TGT (C) --- (-) TGT (C) TGT (C) TGT (C) TGT (C) TGT (C) 
-     9      1    -7.8347236312   0.000395751673       0.0040  TTC (F) TTC (F) TTT (F) --- (-) TTT (F) --- (-) TTC (F) TTT (F) TTC (F) TTC (F) TTC (F) 
+    -1    641    556
