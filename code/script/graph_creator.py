@@ -14,7 +14,7 @@ import sys
 
 ### variables ==================================================================
 
-gene = "Pdk1-PG"
+gene = "Akt1-PE"
 omegas_file = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/omegas.lst".format( gene )
 
 out_image_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/images".format( gene )

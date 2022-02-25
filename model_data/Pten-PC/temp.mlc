@@ -1,0 +1,43 @@
+     11     30
+
+DsuzGB1                         AAA AAA AAT CAT ATA TTT AAT CAA CCG TCC 
+DsimGB2                         --- --- --- --- --- --- --- --- --- --- 
+DvirCAF1                        --- --- --- --- --- --- --- --- --- --- 
+DhydGB1                         --- --- --- --- --- --- --- --- --- --- 
+dm6                             --- --- --- --- --- --- --- --- --- --- 
+DserGB1                         --- --- --- --- --- --- --- --- --- --- 
+DsecCAF1                        --- --- --- --- --- --- --- --- --- --- 
+DanaCAF1                        --- --- --- --- --- --- --- --- --- --- 
+DgriCAF1                        --- --- --- --- --- --- --- --- --- --- 
+DereCAF1                        --- --- --- --- --- --- --- --- --- --- 
+DpseGB3                         --- --- --- --- --- --- --- --- --- --- 
+
+
+
+Printing out site pattern counts
+
+
+        11         24  P
+
+DsuzGB1                          AAA AAT ATA CAA CAT CCG TCC TTT
+DsimGB2                          --- --- --- --- --- --- --- ---
+DvirCAF1                         --- --- --- --- --- --- --- ---
+DhydGB1                          --- --- --- --- --- --- --- ---
+dm6                              --- --- --- --- --- --- --- ---
+DserGB1                          --- --- --- --- --- --- --- ---
+DsecCAF1                         --- --- --- --- --- --- --- ---
+DanaCAF1                         --- --- --- --- --- --- --- ---
+DgriCAF1                         --- --- --- --- --- --- --- ---
+DereCAF1                         --- --- --- --- --- --- --- ---
+DpseGB3                          --- --- --- --- --- --- --- ---
+
+
+
+    2    2    1    1    1    1    1    1
+
+CODONML (in paml version 4.8a, August 2014)  /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/Pten-PC/temp.aln
+Model: One dN/dS ratio for branches, 
+Codon frequency model: F3x4
+ns =  11  ls =  10
+
+Codon usage in sequences
