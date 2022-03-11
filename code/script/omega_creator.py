@@ -106,9 +106,9 @@ time.sleep( 1 )
 # running codeml for the whole gene to get the omega and kappa
 run_line = "{0} {1} >/dev/null 2>&1".format( codeml_path, codeml_ctl_path )
 print( "run_line: ", run_line )
-codeml_run = Popen([run_line], stdin=PIPE, shell=True)
+# codeml_run = Popen([run_line], stdin=PIPE, shell=True)
 time.sleep(1)
-codeml_run.communicate( input = "\n".encode('utf-8') )
+# codeml_run.communicate( input = "\n".encode('utf-8') )
 
 # add the omega and cappa to a file
 with open( full_gene_analysis, "w" ) as outfile:
@@ -203,6 +203,7 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 		# running codeml with intermittent "return"/"enter"
 		# "enter" to continue for "???" codons
 		run_line = "{0} {1} {2}".format( codeml_path, mini_ctl_path,  ">/dev/null 2>&1" )
+		print( run_line )
 		codeml_run = Popen([run_line], stdin=PIPE, shell=True)
 		time.sleep(1)
 		codeml_run.communicate( input = "\n".encode('utf-8') )
@@ -218,9 +219,10 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 			if float(omega) > 1:
 				highly_evolvable[ "{0}:{1}".format( start, stop ) ] = temp_comparisons
 			time.sleep(1)
-		except subprocess.CalledProcessError as e:
-			raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
-			sys.exit( "ERROR" )
+		except:
+		# except subprocess.CalledProcessError as e:
+			# raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
+			# sys.exit( "ERROR" )
 			continue
 
 with open( high_omegas, "w" ) as outfile:

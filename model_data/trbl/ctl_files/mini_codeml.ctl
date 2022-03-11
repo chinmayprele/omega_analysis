@@ -1,6 +1,6 @@
-seqfile = /Users/rele.c/Downloads/omega_analysis/model_data/trbl/temp.aln
-treefile = /Users/rele.c/Downloads/omega_analysis/model_data/trbl/raw_data/trbl.nwk
-outfile = /Users/rele.c/Downloads/omega_analysis/model_data/trbl/temp.mlc
+seqfile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/trbl/temp.aln
+treefile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/trbl/raw_data/trbl.nwk
+outfile = /Users/rele.c/Desktop/github_repos/omega_analysis/model_data/trbl/temp.mlc
 
 runmode = 0
 seqtype = 1
