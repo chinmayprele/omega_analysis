@@ -106,9 +106,9 @@ time.sleep( 1 )
 # running codeml for the whole gene to get the omega and kappa
 run_line = "{0} {1} >/dev/null 2>&1".format( codeml_path, codeml_ctl_path )
 print( "run_line: ", run_line )
-# codeml_run = Popen([run_line], stdin=PIPE, shell=True)
+codeml_run = Popen([run_line], stdin=PIPE, shell=True)
 time.sleep(1)
-# codeml_run.communicate( input = "\n".encode('utf-8') )
+codeml_run.communicate( input = "\n".encode('utf-8') )
 
 # add the omega and cappa to a file
 with open( full_gene_analysis, "w" ) as outfile:
@@ -186,12 +186,12 @@ time.sleep( 1 )
 
 with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 	print( "\t".join( omega_lst[0] ), file=omfile )
-	time.sleep(1)
+	time.sleep(0.1)
 	for i in tqdm(range( 0, aa_length-window_size+1 ), desc="Calculate omega", ascii=True):
 	# for i in range( 0, aa_length-window_size+1 ): # without using tqdm
 		# if i >= 6 and i <= 8:
 		# 	continue
-		time.sleep(0.1) # sleep is redundant, but adding jut in case
+		time.sleep(0.01) # sleep is redundant, but adding jut in case
 		start = i
 		stop = i+window_size
 		temp_comparisons = []
@@ -203,7 +203,7 @@ with open( gene_dir_path + "omegas.lst", "w" ) as omfile:
 		# running codeml with intermittent "return"/"enter"
 		# "enter" to continue for "???" codons
 		run_line = "{0} {1} {2}".format( codeml_path, mini_ctl_path,  ">/dev/null 2>&1" )
-		print( run_line )
+		# print( run_line )
 		codeml_run = Popen([run_line], stdin=PIPE, shell=True)
 		time.sleep(1)
 		codeml_run.communicate( input = "\n".encode('utf-8') )
