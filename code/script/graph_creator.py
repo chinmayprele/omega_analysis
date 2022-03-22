@@ -14,7 +14,7 @@ import sys
 
 ### variables ==================================================================
 
-gene = "trbl"
+gene = "chico-PA"
 omegas_file = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/omegas.lst".format( gene )
 
 out_image_path = "/Users/rele.c/Desktop/github_repos/omega_analysis/model_data/{0}/images".format( gene )
